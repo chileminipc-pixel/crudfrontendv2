@@ -1,7 +1,7 @@
 // Configuración de la API
 export const API_CONFIG = {
   BASE_URL: process.env.NODE_ENV === 'production' 
-    ? process.env.REACT_APP_API_URL || 'https://your-railway-app.up.railway.app/api'  // URL de producción Railway
+    ? process.env.REACT_APP_API_URL || 'https://livesoft.cl/logisapp/api'  // URL de producción Railway
     : 'http://localhost:3001/api',      // URL de desarrollo
   TIMEOUT: 10000, // 10 segundos
   HEADERS: {
