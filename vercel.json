@@ -1,6 +1,6 @@
 {
   "buildCommand": "npm run build",
-  "outputDirectory": "Build",
+  "outputDirectory": "build",
   "cleanUrls": true,
   "rewrites": [
     { "source": "/api/(.*)", "destination": "https://tu-backend.com/api/$1" }
