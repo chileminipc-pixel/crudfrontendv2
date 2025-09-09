@@ -115,7 +115,7 @@ export const LoginForm: React.FC = () => {
                 <div className="text-center space-y-2">
                   <p className="text-sm font-medium text-blue-900">Credenciales de Demostración:</p>
                   <div className="text-xs text-blue-800 space-y-1">
-                    <p><span className="font-medium">Superusuario:</span> admin / admin123</p>
+                    {/* <p><span className="font-medium">Superusuario:</span> admin / admin123</p> */}
                     <p className="text-xs text-blue-600">Solo superusuarios pueden acceder al panel</p>
                   </div>
                 </div>
